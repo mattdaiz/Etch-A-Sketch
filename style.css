@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: grid;
+    grid-row-gap: 5px;
+    padding: 2px;
+    width: fit-content;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    border: solid black;
+    margin: auto;
+    width: 700px;
+    height: 700px;
+}
+
+.square {
+    transition: 0.5s;
+    border: 1px solid white;
+}
